@@ -1,0 +1,50 @@
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInTop {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-slide-left {
+    animation: slideInLeft 3s ease;
+  }
+  .animate-slide-right {
+    animation: slideInRight 3s ease;
+  }
+  .animate-slide-top {
+    animation: slideInTop 3s ease;
+  }
+  .animate-slide-down {
+    animation: slideInDown 3s ease;
+  }
+  
